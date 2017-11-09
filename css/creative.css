@@ -19,6 +19,9 @@ hr {
 hr.light {
   border-color: #fff; }
 
+hr.dark {
+  border-color: #212121;}
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
