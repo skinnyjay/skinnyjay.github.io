@@ -89,7 +89,7 @@ body {
 
 .after {
     position: relative;
-    top: -1000px;
+    margin-bottom: 100px;
 }
 
 .btn-orange {
