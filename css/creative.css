@@ -28,7 +28,7 @@ a {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   a:hover {
-    color: #FF3D00; }
+    color: #212121; }
 
 h1,
 h2,
@@ -73,6 +73,36 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #212121; }
+
+.matrix {
+  background-color: black;
+  padding-top: 0px;
+  padding: 0px;
+  position: absolute;
+  }
+
+.wrapper {
+    padding-top: 75px;
+    margin-left: inherit;
+    margin-right: inherit;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+}
+
+.after {
+    position: relative;
+    top: -1000px;
+}
+
+.btn-orange {
+  background-color: #FF3D00;
+  text-shadow: white;
+}
+
+.margin-top-sm {
+  margin-top: 100px;
+}
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -227,9 +257,10 @@ header.masthead {
 
 .btn-primary {
   background-color: #FF3D00;
-  border-color: #FF3D00; }
+  border-color: #FFFFFF; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #212121;
     background-color: #FF3D00 !important; }
   .btn-primary:active, .btn-primary:focus {
+    color: #FFFFFF;
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
