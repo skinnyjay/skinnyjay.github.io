@@ -83,10 +83,8 @@ body {
 
 .wrapper {
     padding-top: 75px;
-    margin-left: inherit;
-    margin-right: inherit;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
 }
 
