@@ -77,14 +77,24 @@ body {
 .matrix {
   background-color: black;
   padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding: 0px;
+
   position: absolute;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   }
 
 .wrapper {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
     position: relative;
+    top: auto;
 }
 
 .after {
@@ -101,6 +111,14 @@ body {
   margin-top: 100px;
 }
 
+.no_padding {
+    background-color: black;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #212121;
