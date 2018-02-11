@@ -55,7 +55,18 @@ h6 {
 .scroll-point {
   margin-top: -7rem; }
 
+.oslist {
+ padding-top: 70px;
+ padding-bottom: 50px;
+}
+
+.etcher {
+ padding-top: 30px;
+ padding-bottom: 50px;
+}
+
 .projects {
+  padding-top: 150px;
   padding-bottom: 0px; }
 
 .text-faded {
