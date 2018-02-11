@@ -178,8 +178,8 @@ body {
             color: #FF3D00; } }
 
 header.masthead {
-  width: 100vw;
-  height: 100vh;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
   background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
