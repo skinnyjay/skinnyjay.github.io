@@ -82,9 +82,22 @@ h6 {
   margin: 0px; }
 
 .social-row {
-  padding: 2rem;
-  padding-top: 2rem;
+  padding: 1rem;
 }
+
+.btn-row {
+  padding-top: 10vh;
+}
+
+.choices {
+ text-align: justify;
+ padding-top: 10vh;
+ padding-bottom: 10vh;
+}
+
+.contactme {
+ padding-top: 5vh; }
+
 .oslist {
  padding-top: 70px;
  padding-bottom: 50px; }
