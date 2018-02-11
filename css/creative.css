@@ -108,12 +108,16 @@ h6 {
 .padding-sm {
   padding-left: 3vmin;
   padding-right: 3vmin;
-  padding-top: 6vmin;
-  padding-bottom: 3vmin; }
+  padding-top: 5vh;
+  padding-bottom: 5vh; }
 
 .padding-md {
   padding-top: 10vmin;
   padding-bottom: 10vmin; }
+
+.padding-lg {
+  padding-top: 35vmin;
+  padding-bottom: 35vmin; }
 
 .padding-vh {
   padding-top: 10vh;
