@@ -65,20 +65,23 @@ h6 {
   padding: 1rem;
   margin-top: -9em; }
 
-.preperation {
- padding-top: 70px;
-
-}
+.matrix {
+  position: absolute;
+  left: -1%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px; }
 
 .oslist {
  padding-top: 70px;
- padding-bottom: 50px;
-}
+ padding-bottom: 50px; }
 
 .etcher {
  padding-top: 30px;
- padding-bottom: 50px;
-}
+ padding-bottom: 50px; }
+
+.preperation {
+ padding-top: 70px; }
 
 .projects {
   padding-top: 150px;
@@ -90,11 +93,7 @@ h6 {
 .text-small {
   font-size: .8rem; }
 
-.matrix {
-  position: absolute;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
+
 
 .wrap {
   position: relative;
