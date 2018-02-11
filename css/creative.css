@@ -55,9 +55,15 @@ h6 {
 .scroll-point {
   margin-top: -7rem; }
 
-.scroll-point2 {
+.scroll-point1 {
   margin-top: -3rem; }
 
+.scroll-point2 {
+  margin-top: -5rem; }
+
+.scroll-point3 {
+  padding: 1rem;
+  margin-top: -9em; }
 
 .preperation {
  padding-top: 70px;
@@ -169,16 +175,16 @@ body {
   @media (min-width: 992px) {
     #mainNav {
       border-color: transparent;
-      background-color: #121212; }
+      background-color: transparent; }
       #mainNav .navbar-brand {
-        color: #FFFFFF; }
+        color: transparent; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: #FF3D00; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: #FFFFFF; }
+        color: transparent; }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: #FF3D00; }
