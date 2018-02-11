@@ -94,12 +94,13 @@ body {
 .fullscreen {
   width: 100vw;
   height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
+.text-middle{
+ vertical-align: middle;
+ text-align: center;
+
+}
 .margin-top-sm {
   margin-top: 100px;
 }
