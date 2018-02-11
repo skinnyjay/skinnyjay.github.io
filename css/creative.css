@@ -47,8 +47,6 @@ h6 {
 .bg-faded {
   background-color: rgba(0,0,0,0.8);
   padding: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .text-faded {
@@ -70,9 +68,9 @@ h6 {
 }
 
 .wrap {
+  position: relative;
   background-color: rgba(0,0,0, 0.8);
   font-size: 10;
-  position: relative;
 }
 
 .text-middle{
@@ -178,8 +176,6 @@ body {
 header.masthead {
   width: 100vw;
   height: 100vh;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
   background-image: url("../img/header.png");
   background-position: center center;
   -webkit-background-size: cover;
