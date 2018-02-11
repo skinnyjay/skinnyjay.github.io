@@ -29,6 +29,9 @@ a {
   transition: all 0.8s; }
   a:hover {
     color: #1565C0; }
+  a.hyperlink {
+    color: #1565C0;
+  }
 
 h1,
 h2,
@@ -251,7 +254,8 @@ header.masthead {
     font-weight: 300; }
   @media (min-width: 768px) {
     header.masthead p {
-      font-size: 1.15rem; } }
+      font-size: 1.15rem;
+      color: red !important; } }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
