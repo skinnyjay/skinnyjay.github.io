@@ -76,23 +76,28 @@ body {
 
 .matrix {
   position: absolute;
-  padding: 0px;
   padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
   padding-bottom: 0px;
   }
 
-.wrapper {
-  color: white;
+.wrap {
+  background-color: rgba(0,0,0, 0.8);
   font-size: 10;
   position: relative;
-  padding-bottom: auto;
 }
 
 .after {
-    position: relative;
-    margin-top: 100px;
+  position: relative;
+  margin-top: 200px;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .margin-top-sm {
@@ -100,12 +105,12 @@ body {
 }
 
 .no-padding {
-    background-color: black;
-    padding: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+  background-color: black;
+  padding: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #mainNav {
@@ -169,8 +174,8 @@ body {
             color: #FF3D00; } }
 
 header.masthead {
-  padding-top: 12rem;
-  padding-bottom: calc(12rem - 0px);
+  width: 100vw;
+  height: 100vh;
   background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
