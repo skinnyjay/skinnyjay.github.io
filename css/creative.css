@@ -77,9 +77,8 @@ h6 {
 .matrix {
   height: 50vh;
   position: absolute;
-  left: -20px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  left: -1rem;
+  padding: 0px;
   margin: 0px; }
 
 .oslist {
