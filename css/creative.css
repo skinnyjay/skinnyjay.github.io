@@ -23,7 +23,7 @@ hr.dark {
   border-color: #212121;}
 
 a {
-  color: white;
+  color: #212121;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   transition: all 0.8s; }
@@ -97,12 +97,8 @@ h6 {
 }
 
 .btn-row {
-  padding-top: 10vh;
-}
-
-.choices {
- padding-top: 33vh;
- padding-bottom: 33vh;
+  padding-top: 5vh;
+  letter-spacing: .5rem;
 }
 
 .contactme {
@@ -110,11 +106,11 @@ h6 {
  padding-bottom: 1vh;}
 
 .oslist {
- padding-top: 70px;
- padding-bottom: 50px; }
+ height: 100vmax; }
 
 .preperation {
- padding-top: 70px; }
+ padding-top: 1vh;
+ padding-bottom: 10vh;}
 
 .projects {
   padding-top: 10vh;
