@@ -115,7 +115,7 @@ body {
 
 #mainNav {
   border-bottom: transparent;
-  background-color: transparent;
+  background-color: #212121;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -123,7 +123,7 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #212121;
+    color: #FFFFFF;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #FF3D00; }
@@ -132,7 +132,7 @@ body {
     font-size: .9rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #212121; }
+    color: #FFFFFF; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
       color: #FF3D00; }
@@ -159,6 +159,7 @@ body {
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: #FF3D00; }
+
       #mainNav.navbar-shrink {
         border-bottom: 1px solid rgba(33, 37, 41, 0.1);
         background-color: #212121; }
