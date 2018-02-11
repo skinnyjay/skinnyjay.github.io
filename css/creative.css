@@ -81,6 +81,9 @@ h6 {
   padding: 0px;
   margin: 0px; }
 
+.social-row {
+  padding-top: 5rem;
+}
 .oslist {
  padding-top: 70px;
  padding-bottom: 50px; }
