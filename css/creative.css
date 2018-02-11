@@ -23,12 +23,12 @@ hr.dark {
   border-color: #212121;}
 
 a {
-  color: #212121;
+  color: inherit;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   transition: all 0.8s; }
   a:hover {
-    color: #212121; }
+    color: #1565C0; }
 
 h1,
 h2,
@@ -93,20 +93,20 @@ h6 {
 }
 
 .social-row {
-  padding: 3rem;
+  padding: auto;
 }
 
 .btn-row {
   padding-top: 5vh;
-  letter-spacing: .5rem;
 }
 
-.contactme {
- padding-top: 10vh;
- padding-bottom: 1vh;}
+.padding-sm {
+ padding-top: 10vmin;
+ padding-bottom: 10vmin;}
 
 .oslist {
- height: 100vmax; }
+ height: 100vmin;
+ width: 100vw; }
 
 .preperation {
  padding-top: 1vh;
