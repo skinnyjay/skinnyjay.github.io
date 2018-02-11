@@ -115,17 +115,13 @@ h6 {
   padding-top: 10vmin;
   padding-bottom: 10vmin; }
 
+.padding-vh {
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
+
 .oslist {
   height: 100vmin;
   width: 100vw; }
-
-.preperation {
-  padding-top: 1vh;
-  padding-bottom: 10vh; }
-
-.projects {
-  padding-top: 10vh;
-  padding-bottom: 10vh; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
