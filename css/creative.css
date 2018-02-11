@@ -42,6 +42,7 @@ h6 {
   background-color: black;
   color: white;
 }
+
 .bg-primary {
   background-color: #FF3D00 !important; }
 
@@ -101,16 +102,20 @@ h6 {
 }
 
 .padding-sm {
- padding-top: 10vmin;
- padding-bottom: 10vmin;}
+  padding-top: 1vh;
+  padding-bottom: 2vh; }
+
+.padding-md {
+  padding-top: 10vmin;
+  padding-bottom: 10vmin; }
 
 .oslist {
- height: 100vmin;
- width: 100vw; }
+  height: 100vmin;
+  width: 100vw; }
 
 .preperation {
- padding-top: 1vh;
- padding-bottom: 10vh;}
+  padding-top: 1vh;
+  padding-bottom: 10vh; }
 
 .projects {
   padding-top: 10vh;
