@@ -54,33 +54,6 @@ h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
 
-section {
-  padding: 8rem 0; }
-
-.section-heading {
-  margin-top: 0; }
-
-::-moz-selection {
-  color: #212121;
-  background: #212121;
-  text-shadow: none; }
-
-::selection {
-  color: #212121;
-  background: #212121;
-  text-shadow: none; }
-
-img::selection {
-  color: #212121;
-  background: transparent; }
-
-img::-moz-selection {
-  color: #212121;
-  background: transparent; }
-
-body {
-  -webkit-tap-highlight-color: #212121; }
-
 .fullscreen {
   width: 100vw;
   height: 100vh;
@@ -110,6 +83,33 @@ body {
 .margin-top-sm {
   margin-top: 2rem;
 }
+
+section {
+  padding: 8rem 0; }
+
+.section-heading {
+  margin-top: 0; }
+
+::-moz-selection {
+  color: #212121;
+  background: #212121;
+  text-shadow: none; }
+
+::selection {
+  color: #212121;
+  background: #212121;
+  text-shadow: none; }
+
+img::selection {
+  color: #212121;
+  background: transparent; }
+
+img::-moz-selection {
+  color: #212121;
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: #212121; }
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
