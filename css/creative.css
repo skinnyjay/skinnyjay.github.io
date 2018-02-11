@@ -40,8 +40,9 @@ h6 {
 
 .btn-matrix {
   background-color: black;
-  color: white;
-}
+  color: white; }
+  .btn-matrix:hover {
+   color: #FF3D00; }
 
 .bg-primary {
   background-color: #FF3D00 !important; }
@@ -102,8 +103,10 @@ h6 {
 }
 
 .padding-sm {
-  padding-top: 1vh;
-  padding-bottom: 2vh; }
+  padding-left: 3vmin;
+  padding-right: 3vmin;
+  padding-top: 6vmin;
+  padding-bottom: 3vmin; }
 
 .padding-md {
   padding-top: 10vmin;
