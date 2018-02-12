@@ -82,12 +82,12 @@ p {
   padding-top: 5vh;
 }
 
-.js-scroll-link {
+.js-scroll-anchor{
   padding: 0px;
   margin: 0px;
   position: relative;
   top: -10px; }
-.js-scroll-link-top {
+.js-scroll-anchor-top {
   padding: 0px;
   margin: 0px;
   position: relative;
