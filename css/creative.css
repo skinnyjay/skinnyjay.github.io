@@ -98,6 +98,12 @@ p {
  padding-right: 1.5rem;
 }
 
+.padding-auto {
+  padding-top: auto;
+  padding-bottom: auto; }
+.padding-none {
+  padding-top: 0;
+  padding-bottom: 0;}
 .padding-tight {
   padding-top: 2rem;
   padding-bottom: 2rem;
