@@ -93,6 +93,11 @@ p {
   position: relative;
   top: 30px; }
 
+.margin-sm {
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+}
+
 .padding-tight {
   padding-top: 2rem;
   padding-bottom: 2rem;
