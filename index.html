@@ -37,8 +37,8 @@
         <!--Brand Title -->
         <a class="navbar-brand js-scroll-trigger" href="#page-top">IOThings</a>
 
-        <!--Brand Button -->
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+        <!-- Navbar Toggler Button -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span><img class="icon" height="25" width="35 "src="img/icons/threelines.png" alt=""></button>
 
         <!-- Nav Bar Links -->
@@ -46,9 +46,11 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#intro">Intro</a></li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#firsttime">Getting Started</a></li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#oslist">download os</a></li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#etcher_section">flash os</a></li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a></li>
             <li class="nav-item">
@@ -56,13 +58,12 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
           </ul>
-        </div>
 
       </div>
     </nav>
 
     <!-- Header/Welcome Section -->
-    <header class="masthead bg-dark text-center text-white d-flex">
+    <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
 
@@ -127,10 +128,11 @@
     <!-- Matrix Text Wrap -->
     <p class="js-scroll-link" id="intro"></p>
     <section class="wrap fullscreen text-center text-white d-flex">
+
       <div class="container-fluid my-auto">
         <div class="row">
          <div class="col-lg-12 mx-auto text-center">
-           <h1 class="text-lowercase text-center text-white">Hello friend</h2>
+           <a class="btn btn-matrix btn-sm text-lowercase sr-button js-scroll-trigger" href="#choicetime">Hello friend</a>
            </div>
           </div>
         </div>
@@ -138,75 +140,68 @@
     </section>
 
     <!-- Hello Subtext -->
+    <p class="js-scroll-link" id="choicetime"></p>
     <section class="choices bg-dark d-flex">
      <div class="container-fluid my-auto">
       <div class="row">
        <div class="col-lg-12 mx-auto text-center text-white">
-
-         <p>This is your last chance.
-         <p>After this, there is no turning back.
+         <hr class="light"></hr>
+         <p> This is your last chance.</p>
+         <p> After this, there is no turning back.</p>
          <p>
          You take the blue pill — The Story Ends:
-         You wake up in your bed and believe whatever you want to believe.
+         You wake up in your bed and believe whatever you want to believe.</p>
          <p>
          You take the red pill — You Stay in Wonderland:
          And I show you how deep the rabbit hole goes.</p>
-
+         <hr class="light"></hr>
          <div class="row btn-row">
           <div class="col-lg-12 mx-auto text-center text-white">
-           <p><a class="btn btn-danger btn-xl sr-button js-scroll-trigger" href="#firsttime"></a>
-           <a class="btn btn-info btn-xl sr-button js-scroll-trigger" href="#portfolio"></a></p>
-          </div>
+           <a class="btn btn-danger btn-xl sr-button js-scroll-trigger" href="#firsttime">red</a>
+           <a class="btn btn-info btn-xl sr-button js-scroll-trigger" href="#portfolio">blue</a>
          </div>
-
+        </div>
+       </div>
       </div>
      </div>
     </section>
 
-    <!-- "Getting Ready" Section-->
+    <!-- Getting Started Headerbar -->
     <p class="js-scroll-link" id="firsttime"></p>
+    <section class="projects bg-primary text-white text-center d-flex">
+      <div class="container my-auto">
+       <div class="row">
+        <div class="col-lg-12">
+         <hr class="light"></hr>
+         <h2 class="mb-1 text-center">Getting Started</h2>
+         <hr class="light"></hr>
+         </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- "Getting Ready" Content-->
+    <p class="js-scroll-link"></p>
     <section class="preperation bg-light">
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <hr class="dark"></hr>
-            <h2 class="section-heading">Getting Ready</h2>
-            <hr class="dark"></hr>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-floppy-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">SD Cards</h3>
-              <p class="text-muted mb-0">Not all SD Cards are created equal. Be sure to check the <a href="https://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards" target="_blank">supported SD card list.</a></p>
+              <h3 class="mb-3">Hardware</h3>
+              <p class="text-muted mb-0">For any of the coming Raspberry Pi  Projects, you're going to need an SD Card. Not all SD Cards are created equal.
+              <p></p>
+              <p class="text-muted"> Be sure to <a href="https://elinux.org/RPi_SD_cards#Working_.2F_Non-working_SD_cards" target="_blank">check the list.</a></p>
               <p class="text-muted mb-0"></p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Paper Airplane</h3>
-              <p class="text-muted mb-0">Something something shipping. This was the default icon for this space, followed by some BS about professionalism and shipping. Nothing says</p><p><p>"We take shipping seriously"</p><p class="text-muted mb-0">like paper airplanes.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Timely</h3>
-              <p class="text-muted mb-0">I have no quarrels with this one. News is good. Newspapers are good. </p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Heart</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days! Thank god for templates; I think I'm all out of love for the moment.</p>
+              <h3 class="mb-3">Software</h3>
+              <p class="text-muted mb-0">Unless otherwise specified, most Raspberry Pi Projects will use the Raspbian OS (Operating System). In the next section, I'll provide links to any needed files as well as how to install them.</p>
             </div>
           </div>
 
@@ -244,11 +239,11 @@
 
     <!-- Etcher Section -->
     <p class="js-scroll-link" id="etcher_section"></p>
-    <section class="etcher bg-primary text-white">
+    <section class="projects bg-primary text-white">
       <div class="container text-center">
 
         <hr class="light"></hr>
-        <h2 class="mb-4">Flash Operating System to SD Card</h2>
+        <h2 class="mb-4">Flash OS to SD using Etcher</h2>
         <hr class="light"></hr>
 
         <div class="portfolio">
@@ -277,9 +272,10 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-3">
             <a class="portfolio-box" href="img/portfolio/thumbnails/1.png">
               <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
+
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -293,7 +289,7 @@
             </a>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-3">
             <a class="portfolio-box" href="img/portfolio/thumbnails/2.png">
               <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
               <div class="portfolio-box-caption">
@@ -309,7 +305,7 @@
             </a>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-3">
             <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
               <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
               <div class="portfolio-box-caption">
@@ -325,7 +321,7 @@
             </a>
           </div>
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-3">
             <a class="portfolio-box" href="img/portfolio/fullsize/4.png">
               <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
               <div class="portfolio-box-caption">
@@ -341,6 +337,7 @@
             </a>
           </div>
 
+          <!-- Empty Project Templates/Arduino
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/5.png">
               <img class="img-fluid" src="img/portfolio/thumbnails/5.png" alt="">
@@ -371,7 +368,7 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -379,68 +376,76 @@
 
     <!-- FAQs Section -->
     <p class="js-scroll-link" id="faqs"></p>
-    <section class="bg-primary text-white text-center d-flex">
+    <section class="projects bg-primary text-white text-center d-flex">
       <div class="container my-auto">
        <div class="row">
-
         <div class="col-lg-12">
          <hr class="light"></hr>
          <h2 class="mb-1 text-center">Frequently Asked Questions</h2>
          <hr class="light"></hr>
          </div>
-
-       </div>
-       <div class="row">
-
-        <div class="col-lg-12">
-
-         <p>There are no questions</p>
-         </div>
-
        </div>
       </div>
     </section>
 
-
-    <!-- Contact Section -->
-    <p class="js-scroll-link" id="contact"></p>
-    <section class="contactme bg-light d-flex">
-      <div class="container-fluid my-auto">
-
+    <!-- FAQ Content -->
+    <section class="bg-light text-center text-black">
+      <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <hr class="my-4 dark">
-            <h2 class="section-heading">Contact</h2>
-            <hr class="my-4 dark">
+            <p>There are no questions</p>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- Contact Headerbar -->
+    <p class="js-scroll-link" id="contact"></p>
+    <section class="projects bg-primary text-white text-center d-flex">
+      <div class="container my-auto">
+       <div class="row">
+        <div class="col-lg-12">
+         <hr class="light"></hr>
+         <h2 class="mb-1 text-center">Contact</h2>
+         <hr class="light"></hr>
+         </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- Contact Content Section -->
+    <section class="contactme bg-light text-black text-center d-flex">
+      <div class="container my-auto">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
            <p>Ready to start your next project? </p>
            <p>Videos are constantly being uploaded to YouTube.</p>
            <p>Projects and pages like this are possible thanks to donations from patrons like you.</p>
-           <p>Find me on Facebook and LinkedIn below.</p>
+           <p class="text-white">Find me on Facebook and LinkedIn below:</p>
           </div>
         </div>
+      </div>
+    </section>
 
+    <!-- Social Media Row Section -->
+    <section class="bg-primary projects text-white text-center d-flex">
+      <div class="container my-auto">
         <div class="row">
+
           <div class="col-lg-4 ml-auto text-center social-row">
-            <i class="fa fa-facebook fa-3x mb-3 sr-contact"></i>
-            <p>facebook.com/bitBytebit</p>
+            <a href="" target="_blank"><i class="fa fa-facebook fa-3x mb-3 sr-contact"></i></a>
+            <p><a href="" target="_blank">facebook.com/bitBytebit</a></p>
           </div>
 
           <div class="col-lg-4 ml-auto text-center social-row">
-            <i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i>
-            <p>linkedin.com/bitBytebit</p>
+            <a href="" target="_blank"><i class="fa fa-linkedin fa-3x mb-3 sr-contact"></i></a>
+            <p><a href="" target="_blank">linkedin.com/bitBytebit</a></p>
           </div>
 
           <div class="col-lg-4 ml-auto text-black text-center social-row">
-            <i class="fa fa-youtube fa-3x mb-3 sr-contact"></i>
-            <p><a href="https://www.youtube.com/channel/UClbndUAAyFAGQO64RtGz8CA" target="_blank">YouTube.com/bitBytebit</p>
-            <!-- <img class="icon" height="50" width="50 "src="img/portfolio/icons/bitbytebit.webp" alt=""> -->
+            <a href="https://www.youtube.com/channel/UClbndUAAyFAGQO64RtGz8CA"><i class="fa fa-youtube fa-3x mb-3 sr-contact"></i></a>
+            <p><a href="https://www.youtube.com/channel/UClbndUAAyFAGQO64RtGz8CA" target="_blank">YouTube.com/bitBytebit<a/></p>
           </div>
-
         </div>
 
       </div>
