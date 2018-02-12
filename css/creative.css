@@ -47,7 +47,7 @@ p {
           font-size: 1rem;}}
     @media (min-width: 992px) {
     p {
-          font-size: 1.5rem;  }}
+          font-size: 1.1rem;  }}
 
 .drop-shadow {
   text-shadow: 1px 1px 4px black;
@@ -109,13 +109,15 @@ p {
   padding-bottom: 2rem;
 }
 .padding-sm {
-  padding-left: 3vmin;
-  padding-right: 3vmin;
+  padding-left: 3vw;
+  padding-right: 3vw;
   padding-top: 5.25vh;
   padding-bottom: 5.5vh; }
 .padding-md {
-  padding-top: 15vmin;
-  padding-bottom: 15vmin; }
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 0vh;
+  padding-bottom: 0vh; }
 .padding-lg {
  padding-top: 26.25vh;
  padding-bottom: 26.25vh;  }
