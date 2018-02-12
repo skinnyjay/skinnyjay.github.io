@@ -289,7 +289,7 @@ header.masthead {
     header.masthead {
       height: 100vh;
       min-height: 50%;
-      background-image: url("../img/header.jpg");
+      background-image: url("../img/stock.jpg");
       padding-top: 5rem;
       padding-bottom: 5rem; }
     header.masthead h1 {
@@ -301,7 +301,7 @@ header.masthead {
     header.masthead {
       height: 100vh;
       min-height: 50%;
-      background-image: url("../img/header.png"); }
+      background-image: url("../img/stock.jpg"); }
     header.masthead h1 {
       font-size: 3rem; }
     header.masthead p {
