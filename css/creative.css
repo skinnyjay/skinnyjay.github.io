@@ -88,6 +88,12 @@ p {
   padding: 0px;
   margin: 0px;
   position: relative;
+  top: -10px; }
+
+.js-scroll-link-top {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
   top: 30px; }
 
 .matrix {
