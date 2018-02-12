@@ -43,7 +43,7 @@ h6 {
 
 p {
 color:inherit; }
-@media (min-width: 500px) {
+@media (min-width: 400px) {
 p {
     font-size: .8rem;
     }}
@@ -51,7 +51,7 @@ p {
 p {
     font-size: 1rem;
     }}
-@media (min-width: 1500px) {
+@media (min-width: 992px) {
 p {
     font-size: 1.5rem;
     }}
@@ -289,9 +289,9 @@ header.masthead {
       padding-top: 5rem;
       padding-bottom: 5rem; }
     header.masthead h1 {
-      font-size: 3rem; }
+      font-size: 2rem; }
     header.masthead p {
-      font-size: 1rem; }}
+      font-size: .8rem; }}
 
   @media (min-width: 768px) {
     header.masthead {
