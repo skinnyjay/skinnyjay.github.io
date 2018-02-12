@@ -241,7 +241,6 @@ header.masthead {
 
   @media (min-width: 768px) {
     header.masthead {
-      height: 100vh;
       min-height: 50%;
       background-image: url("../img/stock.jpg");
       padding-top: 5rem;
@@ -253,7 +252,6 @@ header.masthead {
 
   @media (min-width: 992px) {
     header.masthead {
-      height: 100vh;
       min-height: 50%;
       background-image: url("../img/stock.jpg"); }
     header.masthead h1 {
